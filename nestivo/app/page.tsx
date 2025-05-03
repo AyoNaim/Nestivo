@@ -1,6 +1,8 @@
 import About from "@/components/About";
+import Dashe from "@/components/Dashe";
+import Detail from "@/components/Detail";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import Home from "@/components/Home";
-import Lookbook from "@/components/Lookbook";
 import Matte from "@/components/Matte";
 import Products from "@/components/Products";
 
@@ -11,6 +13,9 @@ export default function Page() {
       <About />
       <Products />
       <Matte />
+      <FeaturedProducts />
+      <Detail />
+      <Dashe />
     </div>
   );
 }

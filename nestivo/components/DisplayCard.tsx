@@ -10,15 +10,13 @@ type CardProps = {
 
 const DisplayCard = ({img, price, name, className}: CardProps) => {
   return (
-    <div className={`${className} !important bg-white w-64 h-80 flex justify-center items-center`}>
+    <div className={`${className} !important bg-white w-52 h-64 md:w-64 md:h-80 flex justify-center items-center`}>
         <div className='w-11/12 h-11/12 flex flex-col justify-center items-center gap-3.5'>
-                <Image
+                <img
                     src={`/${img}.webp`}
                     alt="img1"
-                    width={180}
-                    height={150}
                     loading='lazy'
-                    className="w-full h-full"
+                    className="w-full h-full object-cover"
                 />
                 <div className='flex justify-between w-full'>
                     <p className='text-[10px]'>{name}</p>

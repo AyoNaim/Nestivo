@@ -37,8 +37,8 @@ const Matte = () => {
         });
       }, []);
   return (
-    <section className='w-screen h-screen'>
-        <div className='w-screen h-screen flex matte'>
+    <section className='w-screen h-auto'>
+        <div className='w-screen h-auto flex matte'>
             <div className='w-1/2 h-full hidden md:block'>
                 <div className='flex flex-col gap-6 h-full justify-center items-center'>
                     <div className='flex items-start justify-start w-1/2'>

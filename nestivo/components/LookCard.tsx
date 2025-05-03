@@ -21,11 +21,9 @@ const LookCard = ({className, images = []}: CardProps) => {
     return (
     <div className={`${className} !important bg-white w-64 h-[200px] flex justify-center items-center`}>
         <div className='w-11/12 h-11/12 flex flex-col justify-center items-center gap-3.5'>
-                <Image
+                <img
                     src={`/${images[currentIndex]}.webp`}
                     alt="img1"
-                    width={180}
-                    height={150}
                     loading='lazy'
                     className="w-full h-11/12 object-cover"
                 />
